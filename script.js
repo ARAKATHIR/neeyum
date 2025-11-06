@@ -44,7 +44,8 @@ document.querySelectorAll('.faq-question').forEach(question => {
 // Sample Donors Data
 const donorsData = [
     { name: "Surendhar", district: "Palani", amount: "₹1,000" },
-    { name: "Jegadeesh", district: "Tirupur", amount: "₹1,000" }
+    { name: "Jegadeesh", district: "Tirupur", amount: "₹1,000" },
+    { name: "Dhilshiya", district: "Kanyakumari", amount: "₹1" }
 ];
 
 // Populate Donors Table
@@ -81,4 +82,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             }
         }
     });
+
 });
